@@ -36,7 +36,7 @@ function Hero() {
         />
         <div className="text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-extrabold">
-            Hi, I’m <span className="text-teal-700">Caro Kitonga</span>
+            Hello, I’m <span className="text-teal-700">Caro Kitonga.</span>
           </h1>
           <p className="mt-4 text-gray-700 leading-relaxed max-w-2xl">
             Backend & Full-Stack Developer based in Nairobi.
