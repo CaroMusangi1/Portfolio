@@ -10,7 +10,7 @@ function Header() {
           <a href="#about" className="font-bold text-lg">Caro Musangi Kitonga</a>
           <div className="text-xs text-gray-500">Backend & Full-Stack Developer</div>
         </div>
-        <nav className="hidden md:flex gap-6 text-sm font-medium">
+        <nav className="flex flex-wrap justify-end gap-4 text-xs md:text-sm font-medium">
           <a href="#about" className="hover:text-teal-700">About</a>
           <a href="#skills" className="hover:text-teal-700">Skills</a>
           <a href="#projects" className="hover:text-teal-700">Projects</a>
