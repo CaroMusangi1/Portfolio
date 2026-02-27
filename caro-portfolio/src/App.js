@@ -6,7 +6,8 @@ function Header() {
     <header className="bg-white/80 backdrop-blur sticky top-0 z-30 border-b">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <div>
-          <a href="#" className="font-bold text-lg">Caro Musangi Kitonga</a>
+          {/* Fixed href for accessibility */}
+          <a href="#about" className="font-bold text-lg">Caro Musangi Kitonga</a>
           <div className="text-xs text-gray-500">Backend & Full-Stack Developer</div>
         </div>
         <nav className="hidden md:flex gap-6 text-sm font-medium">
@@ -39,8 +40,8 @@ function Hero() {
           </h1>
           <p className="mt-4 text-gray-700 leading-relaxed max-w-2xl">
             Backend & Full-Stack Developer based in Nairobi.
-            Specializing in building scalable APIs, intelligent systems, and modern web applications,
-            With a background in Mathematics and Computer Science from Jomo Kenyatta University of Agriculture and Technology,I approach problems analytically and design clean, reliable, and data-driven solutions.
+            Specializing in building scalable APIs, intelligent systems, and modern web applications.
+            With a background in Mathematics and Computer Science from Jomo Kenyatta University of Agriculture and Technology, I approach problems analytically and design clean, reliable, and data-driven solutions.
           </p>
           <div className="mt-6 flex flex-wrap gap-4 justify-center md:justify-start">
             <a
